@@ -1,0 +1,15 @@
+body {
+	font-family: 'Roboto Medium', arial;     /* fonts roboto-medium */
+	/*font-family: Microsoft JhengHei;*/    /* 微軟正黑體 */
+	font-weight: bold;  	/* 粗體字 */
+	/* font-size: 16px; - 字型大小(default 16px), also support 120% mode */
+}
+
+.wrap {
+	display: grid;
+	grid-template-columns: 20px repeat(8, 1fr) 20px;
+	grid-template-rows: 20px repeat(20, 1fr) 20px; 	
+	max-width: 1000px;
+	min-height: 2020px;
+	margin: 0 auto;
+}
